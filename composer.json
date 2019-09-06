@@ -1,0 +1,24 @@
+{
+    "name": "chrisharrison/date-validator",
+    "description": "Historical date validator.",
+    "type": "library",
+    "license": "UNLICENSED",
+    "authors": [
+        {
+            "name": "Chris Harrison",
+            "email": "c.harrison1988@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "chrisharrison/clock": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "ChrisHarrison\\DateValidator\\": "src/"
+        }
+    }
+}
