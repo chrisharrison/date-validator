@@ -8,6 +8,7 @@ final class DateValidatorResponseMessage
 {
     private const INVALID_DATE = 0;
     private const NOT_A_DATE_IN_THE_PAST = 1;
+    private const INVALID_FORMAT = 2;
 
     private $value;
 
@@ -24,6 +25,11 @@ final class DateValidatorResponseMessage
     public static function NOT_A_DATE_IN_THE_PAST(): self
     {
         return new self(self::NOT_A_DATE_IN_THE_PAST);
+    }
+
+    public static function INVALID_FORMAT(): self
+    {
+        return new self(self::INVALID_FORMAT);
     }
 
     public static function null(): self

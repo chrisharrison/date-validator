@@ -8,5 +8,5 @@ use ChrisHarrison\DateValidator\DateValidatorResponse\DateValidatorResponse;
 
 interface DateValidator
 {
-    public function validate(): DateValidatorResponse;
+    public function validate(string $date): DateValidatorResponse;
 }
