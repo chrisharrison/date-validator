@@ -11,7 +11,7 @@ final class DateValidatorResponseMessage
 
     private $value;
 
-    private function __construct(int $value)
+    private function __construct(?int $value)
     {
         $this->value = $value;
     }
@@ -26,8 +26,18 @@ final class DateValidatorResponseMessage
         return new self(self::NOT_A_DATE_IN_THE_PAST);
     }
 
-    public function getValue(): int
+    public static function null(): self
+    {
+        return new self(null);
+    }
+
+    public function getValue(): ?int
     {
         return $this->value;
+    }
+
+    public function isNull(): bool
+    {
+        return $this->value === null;
     }
 }
