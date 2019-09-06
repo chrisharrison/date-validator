@@ -28,7 +28,7 @@ You can see the way that I approached this task my looking at my commit history.
 
 ## Note on really historical dates ##
 
-The solution I've written handles dates back to the year 1 CE. It doesn't handle dates BCE. And bizarrely thinks that there is a year zero. If I was to devote more time to this - and there was a business case for it - I'd investigate that.
+The solution I've written handles dates back to the year 1 CE. It doesn't handle dates BCE. And bizarrely thinks that there is a year zero. If I was to devote more time to this - and there was a business case for it - I'd investigate that. [OK I couldn't resist looking it up. It seems that PHP is using some implementation of ISO 8601 and not the Gregorian calendar]
 
 ## Note on the singleton ##
 
