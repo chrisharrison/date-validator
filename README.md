@@ -34,7 +34,7 @@ The solution I've written handles dates back to the year 1 CE. It doesn't handle
 
 I designed this solution to be an injectable dependency with an interface. This is how I would normally design a new piece of behaviour/functionality. I'm a believer in completing code tests using the methodology I would normally use in my day-to-day work, rather than trying to guess what the examiner is looking for.
 
-However, I realise that this approach is incompatible with the interface that was suggested as part of the test. Therefore I have also [provided a singleton](Singleton) which conforms to the suggested interface while still using the default concrete implementation of my interface.
+However, I realise that this approach is incompatible with the interface that was suggested as part of the test. Therefore I have also [provided a singleton](src/Singleton) which conforms to the suggested interface while still using the default concrete implementation of my interface.
 
 ## Note on PHP date formats ##
 
