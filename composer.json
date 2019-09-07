@@ -2,7 +2,7 @@
     "name": "chrisharrison/date-validator",
     "description": "Historical date validator.",
     "type": "library",
-    "license": "UNLICENSED",
+    "license": "proprietary",
     "authors": [
         {
             "name": "Chris Harrison",
